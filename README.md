@@ -1,6 +1,16 @@
-A simple function to convert numbers to strings and vice versa, along with some test cases.
+# Numbers to Text
 
-LICENSE
+## Overview
+
+This fulfills a pretty simple requirement: Take a number like 1,234 and output it in a string like "one thousand two hundred and thirty-four." Works for numbers up to 999,999,999,999,999,999,999 and can be customized for whatever language you like and even different names for other large numbers. Especially useful when you're sending information to a speech synthesizer.
+
+## Usage
+
+1. include the file in your project
+2. Call the function like this: `numbers_to_text(1234)`
+3. Enjoy outputting information in a moderately less human-readable format
+
+## LICENSE
 This is free and unencumbered software released into the public domain.
 
 Anyone is free to copy, modify, publish, use, compile, sell, or
